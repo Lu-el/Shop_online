@@ -1,0 +1,87 @@
+.hero__container {
+  height: 480px;
+}
+
+.hero__section {
+  padding-bottom: 40px;
+  padding-top: 145px;
+  height: 100%;
+  background-image: url('../image/hero/banner-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.hero__title {
+  padding-left: 112px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 130%;
+}
+
+.hero__timer {
+  padding-top: 100px;
+}
+
+
+@media (max-width: 1200px) {
+  .hero__container {
+    height: 314px;
+  }
+
+  .hero__section {
+    padding-top: 80px;
+    padding-bottom: 36px;
+  }
+
+  .hero__title {
+    font-size: 40px;
+    padding-left: 80px;
+  }
+
+  .hero__timer {
+    padding-top: 63px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero__container {
+    height: 280px;
+  }
+
+  .hero__section {
+    padding-top: 64px;
+    padding-bottom: 30px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__timer {
+    padding-top: 82px;
+  }
+}
+
+@media (max-width: 540px) {
+  .hero__container {
+    height: 340px;
+  }
+
+  .hero__section {
+    padding-top: 50px;
+  }
+
+  .hero__title {
+    padding-left: 0;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hero__timer {
+    padding-top: 189px;
+  }
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="./fonts/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Lato-Bold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="./fonts/Lato-Heavy.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Lato-Heavy.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="./fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/Lato-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="module" src="./script/script.js"></script>
+  <title>Shop online</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <img src="./image/header/logo.svg" alt="Логотип компании Shop Online" class="header__logo">
+      <button class="header__btn-menu" type="button">
+        Меню
+      </button>
+      <form action="" class="header__search">
+        <input class="header__input" type="search" placeholder="Я ищу...">
+        <button class="header__btn-search" type="button"></button>
+      </form>
+      <div class="header__btn-icons">
+        <button type="button" class="btn-icon btn-icon_profile">
+          <span class="btn-icon__descript">Профиль</span>
+        </button>
+        <button type="button" class="btn-icon btn-icon_backet">
+          <span class="btn-icon__descript">Корзина</span>
+        </button>
+        <button type="button" class="btn-icon btn-icon_favourite">
+          <span class="btn-icon__descript">Избранное</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__container">
+      <div class="hero__section">
+        <h2 class="hero__title">
+          -50% на все ноутбуки
+        </h2>
+        <div class="hero__timer" data-timer-deadline="2022/07/18 18:25">
+          <!-- data-timer-deadline="2022/07/18 18:25" -->
+          <!-- <p class="timer__caption">
+            До конца акции:
+          </p>
+          <div class="timer__time">
+            <p class="timer__item">
+              <span class="timer__digit timer__digit_days"></span>
+              <span class="timer__text timer__text_days"></span>
+            </p>
+            <p class="timer__item">
+              <span class="timer__digit timer__digit_hours"></span>
+              <span class="timer__text timer__text_hours"></span>
+            </p>
+            <p class="timer__item">
+              <span class="timer__digit timer__digit_minutes"></span>
+              <span class="timer__text timer__text_minutes"></span>
+            </p>
+            <p class="timer__item">
+              <span class="timer__digit timer__digit_seconds"></span>
+              <span class="timer__text timer__text_seconds"></span>
+            </p> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
