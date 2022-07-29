@@ -1,0 +1,46 @@
+.adv {
+  width: 532px;
+  color: #ffffff;
+  flex: none;
+  overflow: hidden;
+}
+
+@media (max-width: 1500px) {
+  .adv {
+    flex-basis: 400px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 1300px) {
+  .adv {
+
+    flex-basis: 244px;
+    width: 100%;
+    order: -1;
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .adv {
+    overflow: visible;
+    flex-direction: column;
+  }
+}
+
+/*
+@media (max-width: 420px) {
+  .adv {
+    flex-basis: 210px;
+  }
+}
+
+@media (max-width: 360px) {
+  .adv {
+    flex-basis: 170px;
+  }
+} */
+
+

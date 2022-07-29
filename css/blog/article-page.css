@@ -1,0 +1,24 @@
+.article-page__container {
+  display: flex;
+  gap: 143px;
+  max-width: 1830px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 148px;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1400px) {
+  .article-page__container {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .article-page__container {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+}
+

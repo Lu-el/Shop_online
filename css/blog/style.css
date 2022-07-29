@@ -1,0 +1,12 @@
+@import '../var.css';
+@import './normalize.css';
+@import '../fonts.css';
+@import './global.css';
+@import './article.css';
+@import './numbers-page.css';
+@import './blog-article.css';
+@import './adv.css';
+@import './card.css';
+@import './article-page.css';
+@import './breadcrumb.css';
+@import './reveiws.css';

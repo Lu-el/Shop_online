@@ -1,0 +1,28 @@
+.reviews {
+  display: flex;
+  gap: 25px;
+}
+
+.review__icon {
+  padding-left: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #8F8F8F;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.review__icon_eye {
+  background-image: url('../../image/blog/eye.svg');
+}
+
+.review__icon_comment {
+  background-image: url('../../image/blog/chat.svg');
+}
+
+@media (max-width: 540px) {
+  .review__icon {
+    font-size: 12px;
+  }
+}

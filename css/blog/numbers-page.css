@@ -1,0 +1,60 @@
+.numbers-page {
+  padding-top: 100px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.numbers-page__arrow {
+  background-color: transparent;
+  width: 37px;
+  height: 37px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 0;
+}
+
+.numbers-page__arrow_back {
+  background-image: url('../../image/blog/arrow_back.svg');
+}
+
+.numbers-page__arrow_back-active {
+  background-image: url('../../image/blog/arrow_forward.svg');
+  transform: rotate(180deg);
+}
+
+.numbers-page__arrow_forward {
+  background-image: url('../../image/blog/arrow_back.svg');
+  transform: rotate(180deg);
+}
+
+.numbers-page__arrow_forward-active {
+  background-image: url('../../image/blog/arrow_forward.svg');
+}
+
+.numbers-page__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.numbers-page__btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #2D2D2D;
+  background-color: transparent;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #2D2D2D;
+}
+
+.numbers-page__btn_action {
+  border: 3px solid #3670C7;
+  color: #3670C7;
+}
