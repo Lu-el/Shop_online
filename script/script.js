@@ -18,6 +18,15 @@ const defineTimer = () => {
   }
 };
 
-defineTimer();
-initBlogList();
-initArticlePage();
+const initApp = () => {
+  const locationHref = window.location.href;
+  if (locationHref.indexOf('index') > -1) {
+    defineTimer();
+  } else if (locationHref.indexOf('blog') > -1) {
+    initBlogList();
+  } else if (locationHref.indexOf('article') > -1) {
+    initArticlePage();
+  }
+};
+
+initApp();

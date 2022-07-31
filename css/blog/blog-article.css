@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 940px) {
   .blog-container {
     flex-direction: column;
   }
